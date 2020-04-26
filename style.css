@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* <-------------------- Navbar --------------------> */
+#nav-row{
+    text-align: center;
+    margin: auto;
+    background: #293e4f;
+    color: white;
+    padding: 10px;
+}
+#menu li{
+    list-style-type: none;
+    margin: auto;
+    display: inline;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: 900; 
+}
+#menu{
+    padding-top: 10px;
+}
+#nav-h h1{
+    font-weight: 900;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding:30px;
+
+}
+#menu a:hover{
+    background: turquoise;
+}
+
+/* <-------------------- Bootstrap --------------------> */
+#bts{
+  text-align: center;
+  background: #00bc9c;
+  padding: 120px;
+}
+#bts-h h1{
+    padding: 30px;
+    font: 40px;
+    font-size: 75px;
+    font-weight: 800;
+    color:white;
+    text-shadow: 2px 2px 4px #2D2D2E;
+}
+#star p{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 4px #2D2D2E;
+}
+#bts h3{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #2D2D2E;
+}
+
+/* <-------------------- Portfolio --------------------> */
+
+
+#portfolio {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#portfolio h1{
+    color: black;
+    font: 40px;
+    font-size:50px;
+    font-weight: 900;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px #2D2D2E;
+}
+#portfolio p{
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    text-shadow: 2px 2px 4px #2D2D2E;
+}
+#portfolio-img {
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+#portfolio-sec-img {
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 130px;
+    
+}
+
+/* <-------------------- About --------------------> */
