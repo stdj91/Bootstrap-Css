@@ -10,39 +10,41 @@
 <body>
 
     <!-------------------- Navbar -------------------->
-<div class="container-float">
-    <div class="row" id='nav-row'>
-        <div id="nav-h" class="col-lg-6">
-            <h1><a href="https://www.bgit.rs/">BIT STUDENT</a></h1>
-        </div>
-        <div id='menu' class="col-lg-6">
-            <ul>
-                <a href='#'><li>PORTFOLIO</li></a>
-                <a href="#"><li>ABOUT</li></a>
-                <a href="#"><li>CONTACT</li></a>
-            </ul>
-        </div>
+<nav class="navbar">
+    <div class="brand-title">BIT STUDENT</div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+        <ul>
+            <li><a href="#"></a>PORTFOLIO</li>
+            <li><a href="#"></a>ABOUT</li>
+            <li><a href="#"></a>CONTACT </li>
+        </ul>
     </div>
-</div>
+
+</nav>
 <!-------------------- Bootstrap -------------------->
-<div class="container-float" id="bts">
+<div class="container-fluid text-md-center " id="bts">
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
             <img src='Images/profile.png'>
         </div>
     </div>
     <div class="row" id='bts-h'>
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
             <h1>BOOTSTRAP AND CSS</h1>
         </div>
     </div>
     <div class="row" id="star">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
             <div><p><b><span>&#8212;</span><span>&#8212;</span><span>&#8212;</span><span>&#8212;</span><span>&#8212;</span><span>&#9733;</span><span>&#8212;</span><span>&#8212;</span><span>&#8212;</span><span>&#8212;</span><span>&#8212;</span></b></p></div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
             <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
         </div>
     </div>
@@ -63,28 +65,24 @@
         </div>
 
     </div>
-    <div class="row" id="portfolio-img">
-
-        <div class="col-lg-3">
+    <div class="row justify-content-around" id="portfolio-img">
+        
+        <div class="col-lg-4 col-md-6 col-sm-12" >
             <img class="img-fluid" src="Images/cabin.png">
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <img class="img-fluid" src="Images/cake.png">
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <img class="img-fluid" src="Images/circus.png">
         </div>
-    </div>
-
-    <div class="row" id="portfolio-sec-img">
-
-        <div class="col-lg-3">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <img class="img-fluid" src="Images/game.png">
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <img class="img-fluid" src="Images/safe.png">
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <img class="img-fluid" src="Images/submarine.png">
         </div>
     </div>
@@ -106,20 +104,20 @@
     </div>
 
     <div class="row">
-        <div class="offset-lg-3"></div>
-        <div class="col-lg-3">
+        <div class="offset-lg-3 offset-md-3"></div>
+        <div class="col-lg-3 col-md-3">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem commodi. 
                 Porro autem cupiditate tempore dolorem laborum animi sit? 
                 Quas fugit tenetur incidunt, laboriosam corrupti earum nemo atque sed delectus obcaecati?
             </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-3">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem commodi. 
                 Porro autem cupiditate tempore dolorem laborum animi sit? 
                 Quas fugit tenetur incidunt, laboriosam corrupti earum nemo atque sed delectus obcaecati?
             </p>
         </div>
-        <div class="offset-lg-3"></div>
+        <div class="offset-lg-3 offset-md-3"></div>
     </div>
 
     <div class="row">
@@ -145,8 +143,8 @@
     </div>
 
     <div class="row">
-        <div class="offset-lg-3"></div>
-        <div class="col-lg-6">
+        <div class="offset-lg-3 offset-md-3"></div>
+        <div class="col-lg-6 col-md-6">
         
             <form>
                 <label for="name">Name</label><br>
@@ -161,7 +159,7 @@
             </form>
 
         </div>
-        <div class="offset-lg-3"></div>
+        <div class="offset-lg-3 offset-md-3"></div>
     </div>
 </div>
 <!-------------------- Footer -------------------->
@@ -233,5 +231,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script src="script.js"></script>
 </body>
 </html>
