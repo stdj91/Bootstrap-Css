@@ -9,6 +9,13 @@
     color: white;
     padding: 10px;
 }
+#nav-row a{
+    color: white;
+}
+#nav-row a:hover{
+    color: white;
+    text-decoration: none;
+}
 #menu li{
     list-style-type: none;
     margin: auto;
@@ -98,3 +105,146 @@
 }
 
 /* <-------------------- About --------------------> */
+
+#about{
+    background: #00bc9c; 
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+#about h1{
+    color: white;
+    font: 40px;
+    font-size:50px;
+    font-weight: 900;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px #2D2D2E;
+}
+
+#star {
+    font-size: 25px;
+    font-weight: 900;
+    color:white;
+    text-shadow: 2px 2px 4px #2D2D2E;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#about p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #2D2D2E;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color:#bab1ba;
+    text-decoration: none;
+    color: black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* <-------------------- Contact Me --------------------> */
+#contact-me{
+    text-align: center;
+    padding-bottom: 130px;
+}
+#contact-me h1{
+    color: black;
+    font: 40px;
+    font-size:50px;
+    font-weight: 900;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px #2D2D2E;
+}
+#star-black{
+    font-size: 25px;
+    font-weight: 900;
+    color:black;
+    text-shadow: 2px 2px 4px #2D2D2E;
+    text-align: center;
+    padding-bottom: 30px;
+}
+form{
+    text-align: left;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+}
+label{
+    color: #858e95;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #2D2D2E;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+    resize: none;
+}
+
+#send{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 70px;
+    padding: 10px;
+    background:  #00bc9c;
+    color: white;
+    font-weight: bold;
+}
+#footer{
+    background: #293e4f;
+    color: white;
+    padding-top: 45px;
+    text-align: center;
+}
+#footer h3{
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+#footer p{
+    margin: 0px;
+}
+#footer span{
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px white;
+    padding: 0.5em 0.6em;
+}
+#footer a{
+    color: white;
+}
+#footer a:hover{
+    color: white;
+}
+#copyright{
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
