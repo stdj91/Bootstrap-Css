@@ -2,9 +2,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 /* <-------------------- Navbar --------------------> */
+
+.navbar p{
+    
+    font-size:30px;
+    font-weight: 900;
+    margin: 0;
+}
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color:#293e4f;
     color: white;
     padding: 0;
@@ -23,8 +30,10 @@
 .navbar-links li {
     height: 100%;
     list-style: none;
-    padding: 30px;
+    padding: 34px;
     display: block;
+    font-weight: bold;
+    font-size: 20px;
 }
 .navbar-links li a {
     text-decoration: none;
